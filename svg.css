@@ -1,6 +1,12 @@
-.st0 {
+.battery-st0 {
+  fill: toma;
+}
+.battery-st1 {
+  fill: tomato;
+}
+.wifi-st0 {
   fill: black;
 }
-.st1 {
-  fill: tomato;
+.bolt-st0 {
+  fill: black;
 }
