@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<?xml-stylesheet type="text/css" href="../svg.css"?>
+<?xml-stylesheet type="text/css" href="../css/svg.css"?>
 <!-- 위의 코드를 svg 태그 전에 작성한다. 자신이 만들어 놓은 style.css의 경로에 주의  -->
 <svg version="1.1" class="batteryicon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="14px" x="0px" y="0px" viewBox="0 0 115.33 53.12" style="enable-background:new 0 0 115.33 53.12;" xml:space="preserve">
 
