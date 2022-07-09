@@ -22,3 +22,27 @@ body {
 .footer-box__column object {
   height: 25px;
 }
+
+.footer-box > li:nth-of-type(2) {
+  position: relative;
+}
+
+.nav__link {
+  position: relative;
+}
+
+.new-massage {
+  background-color: tomato;
+  height: 23px;
+  width: 23px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 16px;
+  left: 15px;
+}
