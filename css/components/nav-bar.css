@@ -1,0 +1,49 @@
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(228, 228, 228);
+  padding: 20px 40px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 1px solid rgb(200, 200, 200);
+}
+
+.footer-box__column object {
+  height: 25px;
+}
+
+.footer-box > li:nth-of-type(2) {
+  position: relative;
+}
+
+.nav__link {
+  position: relative;
+}
+
+.new-massage {
+  background-color: tomato;
+  height: 23px;
+  width: 23px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 16px;
+  left: 15px;
+}
+
+.reddot {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+}

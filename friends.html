@@ -13,6 +13,7 @@
   </head>
   <body>
     <div class="status-bar">
+      <!--first page log- in-->
       <div class="status-bar__column">
         <span>No Service</span>
         <object type="image/svg+xml" data="icons/wifi.svg"></object>
@@ -26,7 +27,23 @@
         <object type="image/svg+xml" data="icons/bolt.svg"></object>
       </div>
     </div>
-    <nav>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span>
+          <object data="icons/search.svg" type="image/svg+xml"></object>
+        </span>
+        <span>
+          <object data="icons/music.svg" type="image/svg+xml"></object>
+        </span>
+        <span>
+          <object data="icons/gear.svg" type="image/svg+xml"></object>
+        </span>
+      </div>
+    </header>
+
+    <nav class="nav">
+      <!-- Navigation on footer position -->
       <ul class="footer-box">
         <li class="footer-box__column">
           <a class="nav__link" href="#">
