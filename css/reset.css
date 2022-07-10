@@ -132,3 +132,7 @@ table {
 input:focus {
   outline: none;
 }
+
+object[type="image/svg+xml"] {
+  height: 20px;
+}
