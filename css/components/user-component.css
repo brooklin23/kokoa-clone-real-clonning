@@ -1,12 +1,15 @@
 .user-component {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin: 0px var(--horizontal-space) 0px var(--horizontal-space);
+
+  border-bottom: 1px solid rgb(230, 230, 230);
 }
 .user-info {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid rgb(230, 230, 230);
-  padding: 10px var(--horizontal-space);
+  padding: 10px 0;
 }
 
 .user-component__avatar {
@@ -35,5 +38,38 @@
 }
 
 .user-component__avatar__sm {
-  height: 50px;
+  height: 48px;
+}
+
+.friends-screen__channel-header span {
+  font-size: 13px;
+  color: #8c8c8c;
+}
+.friends-screen__channel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px var(--horizontal-space);
+}
+
+.channel-component {
+  border-style: none;
+}
+
+.channel-name {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.user-component__right {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__right span {
+  font-size: 15px;
+}
+
+.user-component__right .count {
+  margin-left: 5px;
 }
