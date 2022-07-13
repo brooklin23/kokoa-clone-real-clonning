@@ -1,0 +1,6 @@
+.recommended-friends {
+  padding: 22px var(--horizontal-space);
+  font-size: 16px;
+  color: rgb(167, 167, 167);
+  font-weight: 300;
+}
