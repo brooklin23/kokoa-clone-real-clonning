@@ -1,0 +1,19 @@
+.badge {
+  background-color: tomato;
+  height: 23px;
+  width: 23px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.reddot {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: tomato;
+}

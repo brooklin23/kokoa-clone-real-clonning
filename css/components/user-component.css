@@ -3,9 +3,13 @@
   align-items: center;
   justify-content: space-between;
   margin: 0px var(--horizontal-space) 0px var(--horizontal-space);
-
   border-bottom: 1px solid rgb(230, 230, 230);
 }
+
+.chanell-component {
+  border-bottom: none;
+}
+
 .user-info {
   display: flex;
   align-items: center;
@@ -57,6 +61,11 @@
 }
 
 .channel-name {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.user-component__avatar__sm + .user-detail > .user-name {
   font-size: 18px;
   font-weight: 400;
 }

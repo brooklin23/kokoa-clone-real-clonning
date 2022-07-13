@@ -11,11 +11,10 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>Welcom to Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
-      <!--first page log- in-->
       <div class="status-bar__column">
         <span>No Service</span>
         <object type="image/svg+xml" data="icons/wifi.svg"></object>
@@ -30,10 +29,13 @@
       </div>
     </div>
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span>
           <object data="icons/search.svg" type="image/svg+xml"></object>
+        </span>
+        <span>
+          <object data="icons/chat.svg" type="image/svg+xml"></object>
         </span>
         <span>
           <object data="icons/music.svg" type="image/svg+xml"></object>
@@ -43,60 +45,37 @@
         </span>
       </div>
     </header>
-    <a id="friends-display-link">
-      <object data="icons/infor.svg" type="image/svg+xml"></object>
-      <span>Friend's Names Display</span>
-      <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
     <main class="friends-screen">
-      <div class="user-component">
-        <a href="#" class="user-info">
-          <img
-            src="icons/KakaoTalk_logo.svg"
-            class="user-component__avatar user-component__avatar__xl"
-          />
-          <div class="user-detail">
-            <span class="user-name">Nicolas</span>
-            <span class="user-subtitle">+1 787-493-4219</span>
-          </div>
-        </a>
-        <div class="user-component__right"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fa-solid fa-chevron-up fa-xs"></i>
-        </div>
-      </div>
-      <div class="user-component channel-component">
+      <div class="user-component chanell-component">
         <a href="#" class="user-info">
           <img
             src="icons/KakaoTalk_logo.svg"
             class="user-component__avatar user-component__avatar__sm"
           />
           <div class="user-detail">
-            <span class="user-name channel-name">Channel</span>
+            <span class="user-name">Kakao Talk</span>
+            <span class="user-subtitle"
+              >Please check My kakao Account Info</span
+            >
           </div>
         </a>
-        <div class="user-component__right">
-          <span>2</span>
-          <i class="fa-solid fa-chevron-right fa-xs count"></i>
+        <div class="user-component__right chats__user-component__right">
+          <span class="clock">21:22</span><span class="badge">1</span>
         </div>
       </div>
     </main>
     <nav class="nav">
-      <!-- Navigation on footer position -->
       <ul class="footer-box">
         <li class="footer-box__column">
           <a class="nav__link" href="friends.html">
-            <object data="icons/user_fill.svg" type="image/svg+xml"></object>
+            <object data="icons/user.svg" type="image/svg+xml"></object>
           </a>
         </li>
         <li class="footer-box__column">
           <a class="nav__link" href="chats.html">
             <span class="new-massage badge">1</span>
             <object
-              data="icons/KakaoTalk_bubble.svg"
+              data="icons/KakaoTalk_bubble__fill.svg"
               type="image/svg+xml"
             ></object>
           </a>
@@ -108,8 +87,8 @@
         </li>
         <li class="footer-box__column">
           <a class="nav__link" href="more.html">
-            <object data="icons/threeDots.svg" type="image/svg+xml"></object>
             <div class="reddot"></div>
+            <object data="icons/threeDots.svg" type="image/svg+xml"></object>
           </a>
         </li>
       </ul>

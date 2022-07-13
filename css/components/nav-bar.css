@@ -20,30 +20,17 @@
 
 .nav__link {
   position: relative;
+  display: block;
 }
 
-.new-massage {
-  background-color: tomato;
-  height: 23px;
-  width: 23px;
-  display: flex;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 15px;
-  font-weight: 600;
-  position: absolute;
-  bottom: 16px;
-  left: 15px;
-}
-
-.reddot {
-  height: 5px;
-  width: 5px;
-  border-radius: 50%;
-  background-color: tomato;
+.nav__link > .reddot {
   position: absolute;
   left: 25px;
   bottom: 25px;
+}
+
+.new-massage {
+  position: absolute;
+  bottom: 16px;
+  left: 15px;
 }

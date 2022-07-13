@@ -1,0 +1,35 @@
+.nav-find {
+  padding: 0 var(--horizontal-space);
+}
+
+.nav-find-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(222, 222, 222);
+  padding: 26px 0 25px 0;
+}
+
+.nav-find__link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 80px;
+}
+
+.nav-find__link .material-symbols-outlined {
+  font-size: 44px;
+  margin-bottom: 14px;
+}
+
+.nav-find__text-box {
+  display: flex;
+  align-items: center;
+  height: 35px;
+}
+
+.nav-find__text {
+  font-size: 17px;
+  text-align: center;
+}
