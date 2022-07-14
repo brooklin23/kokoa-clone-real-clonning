@@ -1,0 +1,95 @@
+.open-chat__container {
+  padding: 0 var(--horizontal-space);
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.open-chat__right > .fa-chevron-right {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.open-chat__list {
+  margin-top: 20px;
+}
+
+.open-chat__list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.open-chat__list__item__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.open-chat__list__item__text > span:first-child {
+  font-size: 19px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.open-chat__list__item__text > span:nth-child(2) {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.3);
+  margin: 7px 0px;
+}
+
+.open-chat__list__item__text__members {
+  display: flex;
+  align-items: center;
+}
+
+.open-chat__list__item__text__members > img {
+  height: 20px;
+  width: 20px;
+  border-radius: 9px;
+  border: 1px solid black;
+}
+
+.open-chat__list__item__text__members span {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.3);
+  margin-left: 7px;
+}
+
+.open-chat__list__item__text__members span:last-child {
+  color: rgba(223, 17, 161, 0.871);
+}
+
+.open-chat__list__item__img img {
+  height: 104px;
+  width: 104px;
+  border-radius: 7px;
+}
+
+.open-chat__list__item__img {
+  position: relative;
+}
+
+.open-chat__list__item__like {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 60px;
+  height: 26px;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: white;
+  position: absolute;
+  bottom: 7px;
+  right: 6px;
+}
+
+.open-chat__list__item__like span {
+  margin-left: 4px;
+}

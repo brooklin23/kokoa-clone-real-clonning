@@ -1,6 +1,25 @@
 .recommended-friends {
-  padding: 22px var(--horizontal-space);
-  font-size: 16px;
+  padding: 0px var(--horizontal-space);
+
   color: rgb(167, 167, 167);
   font-weight: 300;
+  display: flex;
+  flex-direction: column;
+}
+
+.recommended-friends > span {
+  margin-top: 20px;
+  font-size: 17px;
+}
+
+.recommended-friends__block {
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.recommended-friends__block span {
+  font-size: 19px;
 }

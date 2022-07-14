@@ -12,10 +12,20 @@
 @import "components/chat.css";
 @import "components/nav-find.css";
 @import "components/recommended-friends.css";
+@import "components/open-chat.css";
+
+html {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: white;
+  width: 486px;
+  height: 100vh;
 }
 
 .screen-header__icons .reddot {
