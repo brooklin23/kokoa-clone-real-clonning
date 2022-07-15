@@ -13,11 +13,13 @@
 @import "components/nav-find.css";
 @import "components/recommended-friends.css";
 @import "components/open-chat.css";
+@import "components/more.css";
 
 html {
   background-color: black;
   display: flex;
   justify-content: center;
+  height: 800;
 }
 
 body {

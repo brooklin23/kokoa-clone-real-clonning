@@ -6,6 +6,10 @@
   border-bottom: 1px solid rgb(230, 230, 230);
 }
 
+.border-none {
+  border-bottom: none;
+}
+
 .chanell-component {
   border-bottom: none;
 }
@@ -35,6 +39,10 @@
   font-size: 14px;
   margin-top: 8px;
   color: #a0a0a0;
+}
+
+.user-subtitle svg {
+  color: tomato;
 }
 
 .user-component__avatar__xl {
@@ -81,4 +89,8 @@
 
 .user-component__right .count {
   margin-left: 5px;
+}
+
+.user-component__right__message object {
+  height: 30px;
 }

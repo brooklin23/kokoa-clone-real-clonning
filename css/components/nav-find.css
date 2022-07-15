@@ -5,9 +5,10 @@
 .nav-find-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: s;
   border-bottom: 1px solid rgb(222, 222, 222);
-  padding: 26px 0 25px 0;
+  padding: 26px 0 70px 0;
 }
 
 .nav-find__link {
@@ -15,7 +16,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 80px;
+  width: 110px;
 }
 
 .nav-find__link .material-symbols-outlined {
@@ -32,4 +33,9 @@
 .nav-find__text {
   font-size: 17px;
   text-align: center;
+}
+
+.nav-fin__text__sm {
+  font-size: 14px;
+  opacity: 0.6;
 }

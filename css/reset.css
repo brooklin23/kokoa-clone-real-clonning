@@ -133,6 +133,10 @@ input:focus {
   outline: none;
 }
 
+/* 아래 오브젝트 리셋은 SVG 핸들링을 위한것,
+svg크기가 너무 크게 들어오는 불편함을 방지하고,
+<a> 태그 안에 넣을시 클릭이 안되는 문제를 해결한다*/
+
 object[type="image/svg+xml"] {
   height: 20px;
-}
+  pointer-events: none;
