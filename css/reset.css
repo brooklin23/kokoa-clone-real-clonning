@@ -140,3 +140,4 @@ svg크기가 너무 크게 들어오는 불편함을 방지하고,
 object[type="image/svg+xml"] {
   height: 20px;
   pointer-events: none;
+}
