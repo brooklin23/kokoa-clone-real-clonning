@@ -1,0 +1,141 @@
+#chat-screen {
+  background-color: #abc1d1;
+  height: 200vh;
+}
+
+.main-chat {
+  margin-top: 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 var(--horizontal-space);
+}
+.chat-header {
+  background-color: #abc1d1;
+}
+
+.main-chat__time-stamp {
+  color: white;
+  background-color: #91a3b2;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+.message-row,
+.message-row__user {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+
+.message-row__user {
+  justify-content: flex-end;
+}
+
+.message-row img {
+  width: 44px;
+  height: 44px;
+  border-radius: 15px;
+}
+
+.message-row__content {
+  margin-left: 10px;
+}
+
+.message__author,
+.message__time,
+.message__time__user {
+  opacity: 0.5;
+}
+
+.message__info,
+.message__info__user {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+.message__time {
+  margin-left: 5px;
+  font-size: 13px;
+}
+
+.message__time__user {
+  margin-right: 5px;
+  font-size: 13px;
+}
+
+.message__bubble {
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  font-size: 20px;
+}
+
+.message__bubble__user {
+  padding: 10px 15px;
+  background-color: var(--yellow);
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+  font-size: 20px;
+}
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 486px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 25px;
+  box-sizing: border-box;
+}
+
+.replay__column:first-child {
+  width: 10%;
+}
+
+.reply__column:last-child {
+  width: 90%;
+  height: 46px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 23px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reply__column input {
+  border: none;
+  background-color: transparent;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.replay__column__icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reply .fa-square-plus {
+  opacity: 0.5;
+  font-size: 30px;
+}
+
+.reply .fa-face-smile {
+  opacity: 0.5;
+  font-size: 27px;
+}
+
+.reply .fa-circle-arrow-up {
+  font-size: 40px;
+  margin-right: 3px;
+  margin-left: 15px;
+  color: var(--yellow);
+  background-color: black;
+  border-radius: 50%;
+}

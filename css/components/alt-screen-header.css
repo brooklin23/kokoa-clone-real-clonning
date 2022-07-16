@@ -1,16 +1,26 @@
 .settings-header {
   display: flex;
-  margin: 15px var(--horizontal-space);
+  padding: 45px var(--horizontal-space) 1px var(--horizontal-space);
   align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 486px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.settings-header-column {
+  width: 33%;
+}
+
+.settings-header-column:nth-child(2) {
+  display: flex;
   justify-content: center;
 }
 
-.settings-header-column:first-child {
-  margin-right: auto;
-}
-
 .settings-header-column:last-child {
-  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .settings-header .fa-angle-left {
@@ -24,4 +34,8 @@
 .settings-header span {
   font-size: 24px;
   font-weight: 500;
+}
+
+.settings-header-column .fa-bars {
+  margin-left: 20px;
 }

@@ -17,7 +17,7 @@
 
     <title>Chat with friends- Kokoa Clone</title>
   </head>
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -32,94 +32,51 @@
         <object type="image/svg+xml" data="icons/bolt.svg"></object>
       </div>
     </div>
-    <header class="settings-header">
+    <header class="settings-header chat-header">
       <div class="settings-header-column">
-        <i class="fa-solid fa-angle-left"></i>
+        <a href="chats.html">
+          <i class="fa-solid fa-angle-left"></i>
+        </a>
       </div>
       <div class="settings-header-column">
-        <span>Settings</span>
+        <span>Brooklinn</span>
       </div>
       <div class="settings-header-column">
-        <i class="fa-solid fa-magnifying-glass"></i>
+        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        <span><i class="fa-solid fa-bars fa-lg"></i></span>
       </div>
     </header>
-    <main>
-      <ul class="settings__main-menu__container">
-        <li class="settings__main-menu__item">
-          <i class="fa-solid fa-bullhorn"></i>
-          <div class="settings__main-menu__text">
-            <span>Notices</span>
-            <span></span>
+    <main class="main-screen main-chat">
+      <div class="main-chat__time-stamp">Tuesday, June 30, 2020</div>
+
+      <div class="message-row">
+        <img src="image/app-icons-31.png" alt="" />
+        <div class="message-row__content">
+          <span class="message__author">Nicolas Serrano</span>
+          <div class="message__info">
+            <div class="message__bubble">Hi!</div>
+            <span class="message__time">21:27</span>
           </div>
-        </li>
-        <li class="settings__main-menu__item">
-          <i class="fa-solid fa-flask"></i>
-          <div class="settings__main-menu__text">
-            <span>Kokao Lab</span>
-            <span></span>
-          </div>
-        </li>
-        <li class="settings__main-menu__item">
-          <i class="fa-solid fa-circle-exclamation"></i>
-          <div class="settings__main-menu__text">
-            <span>Version</span>
-            <span>Latest Version</span>
-          </div>
-        </li>
-      </ul>
+        </div>
+      </div>
+      <div class="message-row__user">
+        <div class="message__info__user">
+          <span class="message__time__user">21:27</span>
+          <div class="message__bubble__user">What's up?</div>
+        </div>
+      </div>
     </main>
-    <section class="settings__sub-menu">
-      <ul class="settings__main-menu__container">
-        <li class="settings__main-menu__item">
-          <i class="fa-solid fa-lock"></i>
-          <div class="settings__main-menu__text">
-            <span>Privacy </span>
-            <span></span>
-          </div>
-        </li>
-        <li class="settings__main-menu__item">
-          <i class="fa-solid fa-bell"></i>
-          <div class="settings__main-menu__text">
-            <span>Notifications </span>
-            <span></span>
-          </div>
-        </li>
-        <li class="settings__main-menu__item">
-          <i class="fa-solid fa-user"></i>
-          <div class="settings__main-menu__text">
-            <span>Friends </span>
-            <span></span>
-          </div>
-        </li>
-        <li class="settings__main-menu__item">
-          <i class="fa-solid fa-comment"></i>
-          <div class="settings__main-menu__text">
-            <span>Chats </span>
-            <span></span>
-          </div>
-        </li>
-        <li class="settings__main-menu__item">
-          <i class="fa-solid fa-sun"></i>
-          <div class="settings__main-menu__text">
-            <span>Display<span class="settings__text__reddot">N</span></span>
-            <span></span>
-          </div>
-        </li>
-        <li class="settings__main-menu__item">
-          <i class="fa-solid fa-brush"></i>
-          <div class="settings__main-menu__text">
-            <span>Themes<span class="settings__text__reddot">N</span></span>
-            <span>Default theme</span>
-          </div>
-        </li>
-        <li class="settings__main-menu__item">
-          <i class="fa-solid fa-phone"></i>
-          <div class="settings__main-menu__text">
-            <span>Call</span>
-            <span></span>
-          </div>
-        </li>
-      </ul>
-    </section>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-solid fa-square-plus"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message" />
+        <div class="replay__column__icons">
+          <i class="fa-solid fa-face-smile"></i>
+          <i class="fa-solid fa-circle-arrow-up"></i>
+        </div>
+      </div>
+    </form>
   </body>
 </html>

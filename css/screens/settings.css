@@ -1,9 +1,12 @@
 .settings__main-menu__container {
   display: flex;
   flex-direction: column;
-  margin: 0 var(--horizontal-space);
+  margin: 80px var(--horizontal-space) 0 var(--horizontal-space);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 20px;
+}
+.settings__sub-menu .settings__main-menu__container {
+  margin-top: 20px;
 }
 
 .settings__main-menu__item {
@@ -39,10 +42,6 @@
   font-size: 21px;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.3);
-}
-
-.settings__sub-menu {
-  margin-top: 15px;
 }
 
 .settings__text__reddot {
