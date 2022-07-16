@@ -29,8 +29,21 @@
   bottom: 25px;
 }
 
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .new-massage {
   position: absolute;
   bottom: 16px;
   left: 15px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
