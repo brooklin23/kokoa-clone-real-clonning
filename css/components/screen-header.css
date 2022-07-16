@@ -18,3 +18,16 @@
 .screen-header__icons object {
   height: 28px;
 }
+
+@keyframes rotateGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons:hover object[data="icons/gear.svg"] {
+  animation: rotateGear 2s linear infinite;
+}
