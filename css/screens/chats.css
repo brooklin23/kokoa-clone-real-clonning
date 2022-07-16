@@ -108,6 +108,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 5px 25px;
+  transition: all 0.5s ease-in-out;
 }
 
 .keypad img {
@@ -127,7 +128,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  transition: all 0.5s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .reply__column input {
