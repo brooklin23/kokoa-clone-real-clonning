@@ -19,3 +19,16 @@
 #friends-display-link svg {
   color: #a0a0a0;
 }
+
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  z-index: 3;
+  height: 100vh;
+  width: 486px;
+  top: 0;
+  font-size: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
