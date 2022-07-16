@@ -1,0 +1,27 @@
+.settings-header {
+  display: flex;
+  margin: 15px var(--horizontal-space);
+  align-items: center;
+  justify-content: center;
+}
+
+.settings-header-column:first-child {
+  margin-right: auto;
+}
+
+.settings-header-column:last-child {
+  margin-left: auto;
+}
+
+.settings-header .fa-angle-left {
+  font-size: 30px;
+}
+
+.settings-header .fa-magnifying-glass {
+  font-size: 25px;
+}
+
+.settings-header span {
+  font-size: 24px;
+  font-weight: 500;
+}

@@ -15,6 +15,7 @@
 @import "components/recommended-friends.css";
 @import "components/open-chat.css";
 @import "components/more.css";
+@import "components/alt-screen-header.css";
 
 html {
   background-color: black;
