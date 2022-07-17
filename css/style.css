@@ -19,6 +19,7 @@
 @import "components/open-chat.css";
 @import "components/more.css";
 @import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 
 html {
   background-color: black;
