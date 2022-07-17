@@ -6,6 +6,7 @@
   position: fixed;
   width: 486px;
   box-sizing: border-box;
+  background-color: white;
   z-index: 1;
 }
 .settings-header-column {
